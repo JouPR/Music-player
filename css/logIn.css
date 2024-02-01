@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Hedvig+Letters+Serif:opsz@12..24&family=Playfair+Display&family=Roboto:wght@300&display=swap');
+
+:root{
+    --font-principal:'Roboto', sans-serif;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+
+html{
+    background-color: rgb(179, 179, 243);
+   
+}
+
+body{
+    
+    font-size: 100%;
+    font-family: var(--font-principal);
+    min-height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.form{
+    
+    background-color: white;
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 4em 3em;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+       
+    .form_button{
+        margin: 10em 0px;
+        width: 90%;
+        padding: 5%;
+        background-color: #3866f2;
+        color: white;
+        font-size: 18px; 
+        border-radius: 0.5em; 
+        
+    }
+    .form_input{
+        width: 100%;
+        padding: 3%;
+        margin: 10px;
+        border-color: rgba(119, 115, 115, 0.596);
+        
+    }
+}
+    
